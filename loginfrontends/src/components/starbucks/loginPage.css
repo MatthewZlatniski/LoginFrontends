@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'Sodo Sans 8';
+  src: url('../Fonts/sodo-sans-8.woff2') format('woff2'),
+       url('../Fonts/sodo-sans-8.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Sodo Sans Bold';
+  src: url('../Fonts/sodo-sans-3.woff2') format('woff2'),
+       url('../Fonts/sodo-sans-3.woff') format('woff');
+}
+
+.login-page {
+  margin: 0;
+  padding: 0;
+  background: white;
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow: auto;
+}
+
+.login-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%
+}
+
+.login-header {
+  width: 100%;
+  height: 12%;
+  box-shadow: 0 4px 2px -3px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.login-header img {
+  width: 50px;
+  height: auto;
+  position: absolute;
+  top: 25%;
+  left: 2.7%;
+}
+
+.login-title {
+  font-family: 'Sodo Sans Bold', sans-serif;;
+  font-weight: 0;
+  font-size: 27.5px;
+  margin-top: 50px;
+}
+
+
+.login-container-box {
+  margin-top: 50px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  width: 500px;
+}
+
+.login-form{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.login-container-box .indicate {
+  margin-top: 30px;
+  justify-content: left;
+  width: 440px;
+}
+
+
+.login-form .login-input {
+  margin-top: 30px;
+  width: 420px;
+  font-family: 'Sodo Sans 8';
+  font-size: large;
+  border: 1px solid #9e9e9e;      
+  border-radius: 8px;          
+  padding: 10px; 
+  padding-bottom: 15px;
+  padding-top: 15px;               
+}
+
+
+.login-form .login-input::placeholder {
+  color: black;
+}
+
