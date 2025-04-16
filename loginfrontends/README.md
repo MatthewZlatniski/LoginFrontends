@@ -5,7 +5,7 @@ This repository contains a collection of custom login page frontends built with 
 ## Project Structure
 
 An example folder structure for this project:
-
+```
 LoginFrontends/
 ├── node_modules/
 ├── public/
@@ -17,6 +17,7 @@ LoginFrontends/
     │ └── scrumDaddy/
 ├── package.json
 └── README.md
+```
 
 ## Getting Started
 
@@ -36,7 +37,7 @@ To launch the application with the default settings:
 npm start
 ```
 
-TO launch the application with a specified login demo (scrumDaddy for example):
+To launch the application with a specified login demo (scrumDaddy for example):
 
 ```bash
 npm run start:scrumDaddy
