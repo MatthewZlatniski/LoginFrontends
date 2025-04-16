@@ -6,7 +6,17 @@ This repository contains a collection of custom login page frontends built with 
 
 An example folder structure for this project:
 
-LoginFrontends/ ├── node_modules/ ├── public/ │ └── index.html ├── src/ │ ├── App.js # Main application entry point │ ├── index.js # Application bootstrap file │ └── components/ │ └── scrumDaddy/ │ ├── LoginPage.js │ ├── SignupPopup.js │ ├── LoginPage.css │ └── SignupPopup.css ├── package.json └── README.md
+LoginFrontends/
+├── node_modules/
+├── public/
+  │ └── index.html
+├── src/
+  │ ├── App.js # Main application entry point
+  │ ├── index.js # Application bootstrap file
+  │ └── components/
+    │ └── scrumDaddy/
+├── package.json
+└── README.md
 
 ## Getting Started
 
